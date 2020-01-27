@@ -16,5 +16,5 @@ void main(List<String> arguments) {
       h = h * 10 + a[i];
     }
     print('the highest number is');
-    print(high);
+    print(h);
 }
