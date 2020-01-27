@@ -11,9 +11,9 @@ void main(List<String> arguments) {
     }
      a.sort();
     
-    int high = 0;
+    int h = 0;
     for (int i=a.length-1;i>=0;i--){
-      high = high * 10 + a[i];
+      h = h * 10 + a[i];
     }
     print('the highest number is');
     print(high);
